@@ -30,6 +30,7 @@ Create `main/wifi_secrets.h` from the example before building:
 
 ## Build And Flash
 
+Using Visual CodeStudio and ESP-IDF
 ```sh
 source /Users/csteele/.espressif/v6.0.2/esp-idf/export.sh
 idf.py set-target esp32s3
