@@ -31,7 +31,7 @@ Create `main/wifi_secrets.h` from the example before building:
 ## Build And Flash
 
 ```sh
-source /Users/john/.espressif/v6.0.2/esp-idf/export.sh
+source /Users/csteele/.espressif/v6.0.2/esp-idf/export.sh
 idf.py set-target esp32s3
 idf.py build
 idf.py -p /dev/cu.usbmodem2344101 flash monitor
